@@ -72,7 +72,7 @@ export default function AboutSection() {
           )
 
           tl.to(q(".experience-count"), {
-            innerText: 2,
+            innerText: 5,
             duration: 0.5,
             snap: {
               innerText: 1,
@@ -160,26 +160,18 @@ export default function AboutSection() {
             <div className="flex flex-col items-start gap-4">
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
-                  With over 2 years of experience as a frontend developer, I
-                  specialize in crafting responsive and user-friendly web
-                  applications. I excel in creating intuitive interfaces and
-                  enjoy working in collaborative, agile environments.
+                  Passionate software engineer in developing innovative
+                  applications. Proficient in various programming languages,
+                  including JavaScript, Node, Solidity, C, Func and Java, with a
+                  strong focus on creating efficient, scalable solutions. Adept
+                  at collaborating in agile teams and committed to continuous
+                  learning and improvement.
                 </div>
               </div>
 
               <div className="overflow-hidden">
                 <div className="dark:text-white text-animation">
                   My Educational background.
-                </div>
-              </div>
-              <div className="flex gap-1 flex-col items-start">
-                <div className="text-accentColor">NCC Education</div>
-                <div className="overflow-hidden">
-                  <div className="dark:text-white text-animation">
-                    Joined Level 3 Program to embark on an enriching educational
-                    journey designed to build a solid foundation in key
-                    subjects.
-                  </div>
                 </div>
               </div>
             </div>
@@ -406,6 +398,30 @@ const TechStack = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
+            viewBox="0 0 250 250"
+            fill="none"
+          >
+            <path
+              fill="#A6A385"
+              d="M132.12 245.31l-6.36-2.17c0 0 .78-32.42-10.86-34.74-7.76-9-1.24-381.55 29.16-1.24 0 0-9.62 4.81-11.32 13.03-1.86 8.07-.62 25.13-.62 25.13l0 0l0 0z"
+            />
+            <path
+              fill="#499D4A"
+              d="M133.22 217.98c0 0 62.15-34.94 43.96-116.75-12.56-55.37-42.19-73.52-45.44-80.5-3.57-4.96-6.98-13.65-6.98-13.65l2.33 154c0 .16-6.25 51.04 6.01 56.78"
+            />
+            <path
+              fill="#58AA50"
+              d="M122.5 216c0 0-52.27-35.67-49.17-98.49 2.95-62.82 39.86-93.68 46.99-99.27 4.65-4.96 4.81-6.82 5.12-11.79a1217 1217 0 003 .01s3 .01,6 .01c3 .01,6 .01,6 .01s3 .02,3 .02s3 .02,3 .02s0 .01,0 .01s0 .01,0 .01s0 .01,0 .01s0 .01,0 .01s-.03-.02-.03-.02l-.02-.02l3-.02s3-.02,3-.02s3-.02,3-.02s0 .01,0 .01s0 .01,0 .01s0 .01,0 .01z"
+            />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">MongoDB</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             className="stroke-black dark:stroke-white"
@@ -414,11 +430,63 @@ const TechStack = () => {
             strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M4.53 17.05l6.15 -11.72h-.02c.38 -.74 1.28 -1.02 2.01 -.63c.26 .14 .48 .36 .62 .62l1.06 2.01" />
-            <path d="M15.47 6.45c.58 -.59 1.53 -.59 2.11 -.01c.22 .22 .36 .5 .41 .81l1.5 9.11c.1 .62 -.2 1.24 -.76 1.54l-6.07 2.9c-.46 .25 -1.01 .26 -1.46 0l-6.02 -2.92c-.55 -.31 -.85 -.92 -.75 -1.54l1.96 -12.04c.12 -.82 .89 -1.38 1.7 -1.25c.46 .07 .87 .36 1.09 .77l1.24 1.76" />
-            <path d="M4.57 17.18l10.93 -10.68" />
+            <path d="M12 2l-10 10h3v8h14v-8h3z" />
+            <path d="M12 2v20" />
+            <path d="M2 12h20" />
           </svg>
-          <div className="dark:text-white text-lg font-medium">Firebase</div>
+          <div className="dark:text-white text-lg font-medium">Web3</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            className="stroke-black dark:stroke-white"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 2l-10 10h3v10h14V12h3z" />
+            <path d="M12 2v10" />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">Hardhat</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            className="stroke-black dark:stroke-white"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 12h18M3 12l4 -4m-4 4l4 4m14 -4l-4 -4m4 4l-4 4M5 20h14a2 2 0 0 0 2 -2v-8a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2z" />
+            <path d="M9 12v6m6 -6v6" />
+            <path d="M12 12h.01" />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">Bridge</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            className="fill-black dark:fill-white"
+          >
+            <path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z" />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">Solidity</div>
         </div>
       </div>
 
@@ -565,6 +633,89 @@ const TechStack = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
+            viewBox="0 0 250 250"
+            fill="none"
+          >
+            <path
+              fill="#A6A385"
+              d="M132.12 245.31l-6.36-2.17c0 0 .78-32.42-10.86-34.74-7.76-9-1.24-381.55 29.16-1.24 0 0-9.62 4.81-11.32 13.03-1.86 8.07-.62 25.13-.62 25.13l0 0l0 0z"
+            />
+            <path
+              fill="#499D4A"
+              d="M133.22 217.98c0 0 62.15-34.94 43.96-116.75-12.56-55.37-42.19-73.52-45.44-80.5-3.57-4.96-6.98-13.65-6.98-13.65l2.33 154c0 .16-6.25 51.04 6.01 56.78"
+            />
+            <path
+              fill="#58AA50"
+              d="M122.5 216c0 0-52.27-35.67-49.17-98.49 2.95-62.82 39.86-93.68 46.99-99.27 4.65-4.96 4.81-6.82 5.12-11.79a1217 1217 0 003 .01s3 .01,6 .01c3 .01,6 .01,6 .01s3 .02,3 .02s3 .02,3 .02s0 .01,0 .01s0 .01,0 .01s0 .01,0 .01s0 .01,0 .01s-.03-.02-.03-.02l-.02-.02l3-.02s3-.02,3-.02s3-.02,3-.02s0 .01,0 .01s0 .01,0 .01s0 .01,0 .01z"
+            />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">MongoDB</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            className="stroke-black dark:stroke-white"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 2l-10 10h3v8h14v-8h3z" />
+            <path d="M12 2v20" />
+            <path d="M2 12h20" />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">Web3</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            className="stroke-black dark:stroke-white"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 2l-10 10h3v10h14V12h3z" />
+            <path d="M12 2v10" />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">Hardhat</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            className="stroke-black dark:stroke-white"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 12h18M3 12l4 -4m-4 4l4 4m14 -4l-4 -4m4 4l-4 4M5 20h14a2 2 0 0 0 2 -2v-8a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2z" />
+            <path d="M9 12v6m6 -6v6" />
+            <path d="M12 12h.01" />
+          </svg>
+          <div className="dark:text-white text-lg font-medium">Bridge</div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             className="stroke-black dark:stroke-white"
@@ -577,7 +728,7 @@ const TechStack = () => {
             <path d="M15.47 6.45c.58 -.59 1.53 -.59 2.11 -.01c.22 .22 .36 .5 .41 .81l1.5 9.11c.1 .62 -.2 1.24 -.76 1.54l-6.07 2.9c-.46 .25 -1.01 .26 -1.46 0l-6.02 -2.92c-.55 -.31 -.85 -.92 -.75 -1.54l1.96 -12.04c.12 -.82 .89 -1.38 1.7 -1.25c.46 .07 .87 .36 1.09 .77l1.24 1.76" />
             <path d="M4.57 17.18l10.93 -10.68" />
           </svg>
-          <div className="dark:text-white text-lg font-medium">Firebase</div>
+          <div className="dark:text-white text-lg font-medium">Solidity</div>
         </div>
       </div>
     </div>

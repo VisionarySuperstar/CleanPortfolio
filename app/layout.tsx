@@ -9,13 +9,13 @@ import "./globals.css"
 const jost = Jost({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ShinThant.Dev",
-  description: "A Frontend Developer",
+  title: "Terry Anderson",
+  description: "Fullstack Blockchain Developer",
   applicationName: "Portfolio",
   openGraph: {
     type: "website",
     url: "https://devshinthant.vercel.app/",
-    title: "Shinthant.Dev",
+    title: "Terry Anderson",
     description:
       "Portfolio website developed with NextJS, TypeScript, ShadcnUI & GSAP.",
     siteName: "Portfolio website",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     ],
   },
   authors: {
-    name: "Shin Thant",
+    name: "Terry Anderson",
   },
   generator: "NextJs",
   keywords: ["NextJS", "Portfolio", "GSAP", "ShadcnUI"],
-  creator: "Shin Thant",
+  creator: "Terry Anderson",
   icons: {
     icon: "/favicon.png",
   },
