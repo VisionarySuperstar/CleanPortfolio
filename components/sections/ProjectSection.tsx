@@ -3,12 +3,9 @@
 import { useEffect, useRef } from "react"
 import useOnScreen from "@/hooks/useOnScreen"
 import useScrollActive from "@/hooks/useScrollActive"
-import Ecommerce from "@/public/assets/projects/ecommerce.png"
-import GuessMyNumber from "@/public/assets/projects/guess-my-number.png"
-import MiroClone from "@/public/assets/projects/miro-clone.png"
-import Music from "@/public/assets/projects/music-app.png"
-import PortfolioV2 from "@/public/assets/projects/portfolio-v2.png"
-import VSCode from "@/public/assets/projects/vscode.png"
+import Tele from "@/public/assets/projects/Telegram.png"
+import Henlo from "@/public/assets/projects/henlo.png"
+import NFT from "@/public/assets/projects/nftbid.png"
 import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
@@ -76,8 +73,11 @@ export default function ProjectSection() {
           </RoughNotation>
           <div ref={elementRef} className="overflow-hidden ">
             <div className="qoutes-animation  md:w-full text-center font-medium flex flex-col items-center">
-              <div>Good design is obvious. Great design is transparent.</div>
-              <div>Design is not for philosophy, it&apos;s for life.</div>
+              <div>Good code is secure. Great code is decentralized.</div>
+              <div>
+                Development is not just about technology, it&apos;s about trust
+                and innovation.
+              </div>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function ProjectSection() {
         <div className="font-medium">
           Explore more projects in{" "}
           <Link
-            href="https://github.com/ShinnTNT"
+            href="https://github.com/VisionarySuperstar"
             target="_blank"
             aria-label="Expore more in my github profile"
             rel="noopener noreferrer"
@@ -110,69 +110,35 @@ export interface Project {
   description: string
   techStacks: string[]
   image: StaticImageData
-  githubURL: string
-  githubApi: string
+  websiteUrl: string
 }
 
 const projects: Project[] = [
   {
     id: 1,
-    title: "VSCode Portfolio",
+    title: "Meme Token Presale Platform",
     description:
-      "My portfolio website in vscode version developed with React and TypeScript.",
-    techStacks: ["ReactJS", "TypeScript"],
-    image: VSCode,
-    githubURL: "https://github.com/ShinnTNT/vscode-portfolio",
-    githubApi: "https://api.github.com/repos/ShinnTNT/vscode-portfolio",
+      "Developed the Henlo Token smart contract and a presale contract in Solidity, facilitating both private and public sales. ",
+    techStacks: ["ReactJS", "Solidity", "web3"],
+    image: Henlo,
+    websiteUrl: "https://henlotoken.com/",
   },
   {
     id: 2,
-    title: "Exclusive Ecommerce",
+    title: "Telegram Mini App",
     description:
-      "A cutting-edge e-commerce web application designed to provide a seamless shopping experience.",
-    techStacks: ["NextJS", "Strapi", "Radix UI"],
-    image: Ecommerce,
-    githubURL: "https://github.com/ShinnTNT/exclusive-ecommerce",
-    githubApi: "https://api.github.com/repos/ShinnTNT/exclusive-ecommerce",
+      "This is a mini app for coin($HENLO) mining on Telegram. In this project, I was responsible for both frontend and backend development. I built the app using React and Express frameworks, along with the Telegram API",
+    techStacks: ["NextJS", "Telegram", "web3"],
+    image: Tele,
+    websiteUrl: "https://t.me/HenloTokenbot/henlo",
   },
   {
     id: 3,
-    title: "Music Web App",
+    title: "NFT MARKETPLACE",
     description:
-      "An innovative music web application that brings your favorite tunes to your fingertips.",
-    techStacks: ["NextJS", "Strapi", "Radix UI"],
-    image: Music,
-    githubURL: "https://github.com/ShinnTNT/music-player",
-    githubApi: "https://api.github.com/repos/ShinnTNT/music-player",
-  },
-  {
-    id: 4,
-    title: "Guess My Number",
-    description:
-      "An engaging web app created with vanilla JavaScript where users can test their luck and intuition by guessing a randomly generated number.",
-    techStacks: ["Vanilla JavaScript", "CSS"],
-    image: GuessMyNumber,
-    githubURL: "https://github.com/ShinnTNT/Guess-My-Number",
-    githubApi: "https://api.github.com/repos/ShinnTNT/Guess-My-Number",
-  },
-  {
-    id: 5,
-    title: "Portfolio V2",
-    description:
-      "A refined and enhanced showcase of my work, designed to highlight my skills and projects with a sleek and modern interface.",
-    techStacks: ["NextJS", "ShadnUI", "GSAP"],
-    image: PortfolioV2,
-    githubURL: "https://github.com/ShinnTNT/shinthant.dev",
-    githubApi: "https://api.github.com/repos/ShinnTNT/shinthant.dev",
-  },
-  {
-    id: 6,
-    title: "Miro Clone",
-    description:
-      "Enjoy a wide range of brushes, colors, and effects, along with layers, undo/redo functionality, and easy sharing options.",
-    techStacks: ["NextJS", "ShadnUI", "Convex", "Clerk", "Liveblocks"],
-    image: MiroClone,
-    githubURL: "https://github.com/ShinnTNT/realtime-miro-clone",
-    githubApi: "https://api.github.com/repos/ShinnTNT/realtime-miro-clone",
+      "NFTs are unique digital assets that represent ownership of a specific item or piece of content, such as art, music, videos, virtual real estate, and more, on a blockchain.",
+    techStacks: ["solidity", "Next", "web3"],
+    image: NFT,
+    websiteUrl: "https://bidify.cloud",
   },
 ]

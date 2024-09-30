@@ -2,9 +2,11 @@
 
 import { useEffect, useRef } from "react"
 import useScrollActive from "@/hooks/useScrollActive"
+import Discord from "@/public/assets/projects/discord.png"
 import { useSectionStore } from "@/store/section"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
+import Image from "next/image"
 import Link from "next/link"
 
 export default function ContactSection() {
@@ -72,7 +74,7 @@ export default function ContactSection() {
         <div className="flex flex-col gap-8 items-center">
           <div className="flex items-center gap-4">
             <Link
-              href="https://www.linkedin.com/in/shinn-thant-b90533231"
+              href="https://www.linkedin.com/in/terry-anderson-b35b8832b"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Contact me on linkedin"
@@ -87,34 +89,20 @@ export default function ContactSection() {
             </Link>
 
             <Link
-              href="https://x.com/dev_shinnthant"
+              href="https://discord.gg/2Cqj2pZN"
               aria-label="Contact me on Twitter"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full group hover:border-accentColor flex items-center gap-2 border py-[5px] px-4"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="15"
-                height="15"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                className="stroke-black group-hover:scale-105 dark:stroke-white"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-              </svg>
+              <Image alt={"discord"} src={Discord} height={15} />
               <div className="text-xs dark:text-white group-hover:scale-105">
-                Twitter
+                Discord
               </div>
             </Link>
 
             <Link
-              href="https://github.com/ShinnTNT"
+              href="https://github.com/VisionarySuperstar"
               aria-label="Contact me on Github"
               target="_blank"
               rel="noopener noreferrer"
@@ -141,10 +129,10 @@ export default function ContactSection() {
           </div>
           <div className="flex flex-col items-center">
             <div className="text-accentColor text-lg font-semibold">
-              Shin Thant
+              Terry Anderson
             </div>
             <div className="dark:text-white text-sm">
-              Designer, Developer & Lover
+              Senior Fullstack Blockchain Engineer
             </div>
           </div>
           <div className="overflow-hidden flex justify-center items-center">
@@ -156,7 +144,7 @@ export default function ContactSection() {
             </div>
           </div>
           <div className="end-title dark:text-white text-md">
-            Made with ❤️ by Shin Thant
+            Made with ❤️ by Terry Anderson
             <br />
             <br />
             <br />
