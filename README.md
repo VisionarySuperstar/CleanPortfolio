@@ -68,6 +68,6 @@ Here are some inspiration and credits for the design of my portfolio. However I 
 - [Flowtrix](https://www.flowtrix.co/)
 
 ## Author
-
+  
 - [@terryanderson](https://terry-anderson.vercel.app/)
  
