@@ -70,3 +70,4 @@ Here are some inspiration and credits for the design of my portfolio. However I 
 ## Author
 
 - [@terryanderson](https://terry-anderson.vercel.app/)
+ 
