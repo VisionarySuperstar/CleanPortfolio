@@ -12,7 +12,7 @@ interface Props {
 
 export default function ProjectCard({ item }: Props) {
   const cardRef = useRef<HTMLDivElement>(null)
-  const [starCount, setStarCount] = useState<number>(50)
+  const [starCount] = useState<number>(50)
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger)
