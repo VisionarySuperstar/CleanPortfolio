@@ -62,7 +62,7 @@ npm run dev
 
 ## Inspiration and Credits
 
-Here are some inspiration and credits for the design of my portfolio. However I can guarantee that I wrote 100% of the code. These credits are just for ideas and design for my portfolio website.
+Here are some inspiration and credits for the design of my portfolio. However I can guarantee that I wrote 100% of the code. These credits are just for ideas and design for my portfolio website
 
 - [Sat Naing Porfolio](https://satnaing.dev/)
 - [Flowtrix](https://www.flowtrix.co/)
