@@ -24,7 +24,7 @@ My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS an
 
 ## Lighthouse Score
 
-<a href="https://pagespeed.web.dev/analysis/https-devshinthant-vercel-app/sgswm7q59t?form_factor=desktop">
+<a href="https://terry-anderson.vercel.app/">
 <img width="630" height="200px" alt="Terry Anderson Portfolio Website Lighthouse Score" src="public/lighthouse.svg">
 <a>
 
@@ -69,4 +69,4 @@ Here are some inspiration and credits for the design of my portfolio. However I 
 
 ## Author
 
-- [@terryanderson](https://devshinthant.vercel.app/)
+- [@terryanderson](https://terry-anderson.vercel.app/)
