@@ -1,6 +1,6 @@
-# Shin Thant Portfolio
+# Terry Anderson Portfolio
 
-![shinthant-portfolio](https://i.ibb.co/m5bYtw6/responsive-showcase.png)
+![TerrtAnderson-portfolio](https://i.ibb.co/m5bYtw6/responsive-showcase.png)
 
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 
@@ -25,7 +25,7 @@ My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS an
 ## Lighthouse Score
 
 <a href="https://pagespeed.web.dev/analysis/https-devshinthant-vercel-app/sgswm7q59t?form_factor=desktop">
-<img width="630" height="200px" alt="Shin Thant Portfolio Website Lighthouse Score" src="public/lighthouse.svg">
+<img width="630" height="200px" alt="Terry Anderson Portfolio Website Lighthouse Score" src="public/lighthouse.svg">
 <a>
 
 ## Running Locally
@@ -33,13 +33,13 @@ My portfolio website developed with Next.JS(SSG) and TypeScript. Tailwind CSS an
 Clone the project
 
 ```bash
-git clone https://github.com/ShinnTNT/shinthant.dev.git
+git clone https://github.com/VisionarySuperstar/CleanPortfolio.git
 ```
 
 Go to the project directory
 
 ```bash
-cd shinthant.dev
+cd CleanPortfolio.git
 ```
 
 Remove remote origin
@@ -69,4 +69,4 @@ Here are some inspiration and credits for the design of my portfolio. However I 
 
 ## Author
 
-- [@shinthant](https://devshinthant.vercel.app/)
+- [@terryanderson](https://devshinthant.vercel.app/)

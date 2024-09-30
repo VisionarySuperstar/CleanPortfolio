@@ -38,7 +38,7 @@ export default function Header() {
                   section === "#project" && "dark:text-black"
                 )}
               >
-                ShinThant
+                TerryAnderson
               </span>
               <span className="text-accentColor font-bold">.dev</span>
             </Link>
