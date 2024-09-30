@@ -1,3 +1,4 @@
+
 {
   "arrowParens": "always",
   "semi": false,
@@ -27,3 +28,4 @@
     "@trivago/prettier-plugin-sort-imports"
   ]
 }
+
